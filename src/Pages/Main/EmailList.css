@@ -1,0 +1,28 @@
+.emailList_Left{
+    display:flex;
+    align-items:center;
+}
+.emailLeft_right{
+    display:flex;
+    justify-content:space-between;
+    position:sticky;
+    top: 62px;;
+   
+    border-bottom: 1px solid whitesmoke;
+    background-color:rgb(250, 249, 249);
+   
+}
+
+.emailList{
+    flex: 1;
+    /* overflow:scroll; */
+}
+.EmailList_middle{
+    display:flex;
+    align-items:center;
+    
+}
+.EmailList_middle > Section{
+    
+    
+}

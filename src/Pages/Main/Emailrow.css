@@ -1,0 +1,32 @@
+.emailrow_option{
+    display:flex;
+    align-items:center;
+    border: 1px solid whitesmoke;
+}
+.emailrow_option:hover{
+    background-color:aliceblue;
+}
+.emailrow_tilte{
+    flex:0.25;
+}
+.emailrow_description{
+    flex:0.8;
+}
+.emailrow_description > span{
+    margin-left: 5px
+}
+.emailrow_time{
+    margin-right: 15px;
+}
+.emailrow_message{
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    width:100px;
+    text-overflow: ellipsis;
+}
+.emailrow{
+    overflow:scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}

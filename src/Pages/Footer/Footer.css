@@ -1,0 +1,13 @@
+.footer > h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    font-weight:500;
+    /* margin-top:20rem; */
+    background-color:rgb(250, 238, 238);
+    padding: 12px;
+    /* width: 100%; */
+
+    
+}
