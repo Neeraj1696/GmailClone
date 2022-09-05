@@ -1,11 +1,14 @@
 import React from "react";
 import "./Emailrow.css";
+import { useNavigate } from "react-router-dom";
 import CheckBoxOutlineBlankIcon from "@mui/icons-material/CheckBoxOutlineBlank";
 import { IconButton } from "@mui/material";
 import StarBorderIcon from "@mui/icons-material/StarBorder";
 function Emailrow({ id, message, title, subject, time, description }) {
+  const navigate = useNavigate();
+
   return (
-    <div className="emailrow">
+    <div onClick={() => navigate("/mail")} className="emailrow">
       <div className="emailrow_option">
         <IconButton>
           <CheckBoxOutlineBlankIcon />

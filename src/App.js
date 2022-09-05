@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import { Routes, Route } from "react-router-dom";
 import Footer from "./Pages/Footer/Footer";
 import Header from "./Pages/Header/Header";
 import Mail from "./Pages/Main/Mail";
@@ -13,8 +14,12 @@ function App() {
 
       <div className="app_body">
         <Sidebar />
-        <EmailList />
-        <Mail />
+        <Routes>
+          <Route path="/" element={<EmailList />} />
+          <Route path="/mail" element={<Mail />} />
+        </Routes>
+        {/* <EmailList />
+        <Mail /> */}
       </div>
 
       <Footer />

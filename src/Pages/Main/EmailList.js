@@ -150,7 +150,7 @@ function EmailList() {
           title="Job Offer"
           subtitle="subject"
           description="description"
-          message="Hiiiii lorem "
+          message="Hiiiii  "
           time="11:00 Am"
         />
         <Emailrow
